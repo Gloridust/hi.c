@@ -17,4 +17,5 @@ int main(){
         y=pow(5,x);
     }
     printf("y=%f\n",y);
+    return y;
 }
