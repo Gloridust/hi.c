@@ -13,7 +13,7 @@ int main(){
     {
         for ( j = 0; j < m; j++)
         {
-            printf("input num:");
+            printf("input num:\n");
             scanf("%f",&a[i][j]);
         }
         
@@ -21,9 +21,9 @@ int main(){
     
     for ( i = 0; i < n; i++)
     {
-        for ( j = 0; j<= m; j++)
+        for ( j = 0; j< m; j++)
         {
-                printf("%f ",a[i][j]);
+                printf("%5.1f ",a[i][j]);
         }
         printf("\n");
     }
