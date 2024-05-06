@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main() {
-    int matrix[3][3]; // 定义一个3x3的整型矩阵
+    int matrix[3][3];
     int i, j, sum = 0;
 
     printf("Please input the elements of the 3x3 matrix:\n");
@@ -24,7 +24,6 @@ int main() {
         }
     }
 
-    // 输出结果
     printf("Sum of diagonal elements: %d\n", sum);
 
     return 0;
