@@ -24,7 +24,7 @@ int main() {
         }
     }
 
-    // 最大
+    // 查找最大元素及其位置
     int maxElement = array[0][0];
     int maxRow = 0, maxCol = 0;
     for (int i = 0; i < rows; i++) {
@@ -37,7 +37,10 @@ int main() {
         }
     }
 
-    printf("最大元素是 %d\n第%d行\n第%d列", maxElement, maxRow, maxCol);
+    // 输出最大元素及其位置，行列号从1开始
+    printf("最大元素是 %d\n", maxElement);
+    printf("第%d行\n", maxRow + 1);
+    printf("第%d列\n", maxCol + 1);
 
     return 0;
 }
