@@ -37,7 +37,7 @@ int main() {
         }
     }
 
-    printf("最大元素是 %d，位置是：行 %d，列 %d\n", maxElement, maxRow, maxCol);
+    printf("最大元素是 %d\n第%d行\n第%d列", maxElement, maxRow, maxCol);
 
     return 0;
 }
