@@ -2,9 +2,7 @@
 #include<stdio.h>
 
 float aver(float a,float b,float c,float d){
-    float plused = a+b+c+d;
-    float result = plused/4;
-    return result;
+    return ((a+b+c+d)/4);
 }
 
 int main(){
