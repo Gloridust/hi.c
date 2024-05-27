@@ -1,28 +1,26 @@
-#include<stdio.h>
+#include <stdio.h>
 
-float max(float m=b,int n){
+float max(float b[], int n) {
+    float m = b[0];
     int i;
-    for ( i = 1; i < n; i++)
-    {
-        if (m<b[i])
-        {
-            m=b[i];
+    for (i = 1; i < n; i++) {
+        if (m < b[i]) {
+            m = b[i];
         }
-        
     }
     return m;
 }
 
-int main(){
-    int n,i;
-    printf("please input n:");
-    scanf("%d",&n);
-    float a[n],s;
-    for (i = 0; i < n; i++)
-    {
-        scanf("%f",&a[i]);
+int main() {
+    int n, i;
+    printf("Please input n: ");
+    scanf("%d", &n);
+    float a[n], s;
+    for (i = 0; i < n; i++) {
+        printf("Please input the %dth number: ", i + 1);
+        scanf("%f", &a[i]);
     }
-    s=max(a,n);
-    printf("%f\n",s);
-    return 0; 
+    s = max(a, n);
+    printf("The maximum number is: %f\n", s);
+    return 0;
 }
