@@ -33,5 +33,5 @@ int main(){
     float average;
     average=avera(a);
     printf("aver=%f\n",average);
-    return 0; // 添加返回值
+    return 0; 
 }
