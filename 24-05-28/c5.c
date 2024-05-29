@@ -5,7 +5,7 @@
 
 float compute(float a,float b){
     float y;
-    y=(a-b)/(a+b);
+    y=((a-b)/(a+b));
     return y;
 }
 
@@ -16,5 +16,5 @@ void main(){
     printf("input b:");
     scanf("%f",&b);
     y=compute(a,b);
-    printf("y=%f",y);
+    printf("y=%.2f",y);
 }
