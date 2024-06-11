@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     int matrix[4][3];
     int i, j;
     int min, minRow, minCol;
@@ -27,6 +27,4 @@ int main() {
     }
 
     printf("最小值是: %d, 位置: 行 %d, 列 %d\n", min, minRow+1, minCol+1);
-
-    return 0;
 }
