@@ -26,7 +26,7 @@ int main() {
         }
     }
 
-    printf("最小值是: %d, 位置: 行 %d, 列 %d\n", min, minRow, minCol);
+    printf("最小值是: %d, 位置: 行 %d, 列 %d\n", min, minRow+1, minCol+1);
 
     return 0;
 }
